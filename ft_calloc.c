@@ -6,7 +6,7 @@
 /*   By: rkerobya <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/21 18:18:23 by rkerobya          #+#    #+#             */
-/*   Updated: 2025/01/25 18:19:58 by rkerobya         ###   ########.fr       */
+/*   Updated: 2025/02/06 16:10:55 by rkerobya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,8 @@
 
 void	*ft_calloc(size_t count, size_t size)
 {
-	size_t	i;
 	void	*c;
 
-	i = 0;
 	c = malloc(size * count);
 	if (!c)
 	{

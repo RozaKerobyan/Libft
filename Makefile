@@ -19,7 +19,7 @@ all: $(NAME)
 $(NAME): $(MANDATORY_OBJS)
 	$(ARRCS) $(NAME) $(MANDATORY_OBJS)
 
-%.o: %.c libft.h
+%.o: %.c libft.h Makefile
 	$(CC) $(CFLAGS) -c $< -o $@
 
 bonus: $(BONUS_OBJS)

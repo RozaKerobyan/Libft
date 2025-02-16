@@ -6,7 +6,7 @@
 /*   By: rkerobya <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/27 15:30:18 by rkerobya          #+#    #+#             */
-/*   Updated: 2025/01/28 17:44:08 by rkerobya         ###   ########.fr       */
+/*   Updated: 2025/02/10 17:31:12 by rkerobya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,10 @@ static char	**array_free(char **str, int n)
 	int	i;
 
 	i = 0;
-	while (i > 0)
+	while (i < n)
 	{
-		i--;
-		free(str[n]);
+		free(str[i]);
+		i++;
 	}
 	free(str);
 	return (0);
