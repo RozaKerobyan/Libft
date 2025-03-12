@@ -1,13 +1,13 @@
 # LIBFT 📒
 
-## Libft is a personal standard library that provides useful functions for C programming.
+## A library that you build from the ground up. 
 ## 🚀 Setup
 
 ### 1. Clone the Repository
 Clone the repository to your local machine using the following command:
 
 ``` bash
-git clone git@github.com:RozaKerobyan/Libft.gi
+git clone git@github.com:RozaKerobyan/Libft.git
 ```
 
 ### 2. Navigate to the Libft Directory
